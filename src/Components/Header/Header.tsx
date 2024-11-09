@@ -3,7 +3,9 @@ import LogoImage from "../../images/logo-bookmark.svg";
 export default function Header() {
   return (
     <header>
-      <img src={LogoImage} alt="BookMark Logo" className="logo" />
+      <a href="#home">
+         <img src={LogoImage} alt="BookMark Logo" className="logo" />
+      </a>
 
       <nav>
         <a href="#features">Features</a>
