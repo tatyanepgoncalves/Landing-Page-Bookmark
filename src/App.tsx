@@ -1,6 +1,9 @@
+import Header from "./Components/Header/HEADER"
 
 export default function App() {
   return (
-    <div>App</div>
+    <div>
+      <Header />
+    </div>
   )
 }
