@@ -1,10 +1,10 @@
-import { useState } from "react"
+import { ChangeEvent, useState } from "react"
 
 export default function StayUp() {
   const [email, setEmail] = useState("");
   const [error, setError] = useState("");
 
-  const handleEmailChange = (e) => {
+  const handleEmailChange = (e: ChangeEvent<HTMLInputElement>) => {
     setEmail(e.target.value);
   }
 
