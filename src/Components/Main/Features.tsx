@@ -4,9 +4,9 @@ import ImageTab2 from "../../images/illustration-features-tab-2.svg";
 import ImageTab3 from "../../images/illustration-features-tab-3.svg";
 
 export default function Features() {
-  const [activeTab, setActiveTab] = useState(1);
+  const [activeTab, setActiveTab] = useState<number>(1);
 
-  const handleTabClick = (tabNumber) => {
+  const handleTabClick = (tabNumber: number) => {
     setActiveTab(tabNumber);
   };
 
